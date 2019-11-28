@@ -374,8 +374,9 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
                     }
                     biendau=getso1(":")
                     biensau=getso2(":")
-                    result_match= biendau!!/ biensau!!
+
                     if(biendau!=(0).toLong() && biensau!=(0).toLong())
+                        result_match= biendau!!/ biensau!!
                     tv_number.text=result_match.toString()+resources.getString(R.string.chia)
 
 
