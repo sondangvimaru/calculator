@@ -472,7 +472,9 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
 
         }
 
-        return result.trim().toLong()
+        if(result!=" ")
+    return result.trim().toLong()
+    else return  0
     }
 
 fun  getso2(kytu:String):Long
