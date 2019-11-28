@@ -1,2 +1,2 @@
 # calculator
-simple a[ơ
+simple app
